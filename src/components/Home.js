@@ -1,6 +1,8 @@
 import React from 'react';
 import Leaderboard from './Leaderboard';
 import Logo from './images/BloodQuest.png'
+import QuestPage from './Quest';
+import Profile from './Profile';
 
 function Home() {
   return (
@@ -45,6 +47,8 @@ function Home() {
           <Leaderboard/>
         </section>
       </main>
+      <QuestPage/>
+      <Profile/>
       <footer className="text-center py-4 bg-purple-700">
         <p className="text-xl">&copy; 2023 BloodQuest</p>
       </footer>
