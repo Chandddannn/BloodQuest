@@ -1,12 +1,13 @@
 import React from 'react';
 import Leaderboard from './Leaderboard';
+import Logo from './images/BloodQuest.png'
 
 function Home() {
   return (
-    <div className="relative bg-purple-500 text-white">
+    <div className="relative bg-purple-800 text-white">
       <header className="container ">
-        <nav className="flex items-center justify-between bg-purple-700 py-4 px-12 w-[100vw] ">
-          <img src="" alt="BloodQuest"></img>
+        <nav className="flex items-center justify-between bg-purple-600 py-4 px-12 w-[100vw] ">
+          <img className='h-8 w-8' src={Logo} alt="BloodQuest"></img>
           <ul className="flex">
             <li className="ml-4"><a href="#locator">Quest</a></li>
             <li className="ml-4"><a href="#leaderboard">Leaderboard</a></li>
@@ -18,7 +19,7 @@ function Home() {
       <main className="container mx-auto py-16">
         <div>
         <section className="text-center mg-16 h-[100vh]">
-  <img src="https://source.unsplash.com/800x600/?blood,donate" alt="Donate blood" className="mx-auto max-h-[50vh] mb-8" />
+  <img src={Logo} alt="Donate blood" className="mx-auto max-h-[50vh] mb-8" />
   <h2 className="text-5xl font-bold mb-8">Join the BloodQuest</h2>
   <p className="text-xl mb-8">Donate blood and help save lives</p>
   <a href="#register" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-800 hover:text-white transition duration-300 inline-block">Register Now</a>
