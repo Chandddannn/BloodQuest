@@ -6,7 +6,7 @@ function Home() {
     <div className="relative bg-purple-500 text-white">
       <header className="container ">
         <nav className="flex items-center justify-between bg-purple-700 py-4 px-12 w-[100vw] ">
-          <h1 className="text-3xl font-bold">BloodQuest</h1>
+          <img src="" alt="BloodQuest"></img>
           <ul className="flex">
             <li className="ml-4"><a href="#locator">Quest</a></li>
             <li className="ml-4"><a href="#leaderboard">Leaderboard</a></li>
@@ -17,14 +17,15 @@ function Home() {
       </header>
       <main className="container mx-auto py-16">
         <div>
-        <section className="text-center mb-16 h-[100vh]">
-          <h2 className="text-5xl font-bold mb-8">Join the BloodQuest</h2>
-          <p className="text-xl mb-8">Donate blood and help save lives</p>
-          <a href="#register" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-800 hover:text-white transition duration-300 inline-block">Register Now</a>
-        </section>
-        <section className="">
-            <img className=''></img>
-        </section>
+        <section className="text-center mg-16 h-[100vh]">
+  <img src="https://source.unsplash.com/800x600/?blood,donate" alt="Donate blood" className="mx-auto max-h-[50vh] mb-8" />
+  <h2 className="text-5xl font-bold mb-8">Join the BloodQuest</h2>
+  <p className="text-xl mb-8">Donate blood and help save lives</p>
+  <a href="#register" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-800 hover:text-white transition duration-300 inline-block">Register Now</a>
+</section>
+
+
+        
         </div>
         <section className="container mx-auto mb-16 h-[100vh]">
           <h3 className="text-3xl font-bold mb-8">Why Donate Blood?</h3>
