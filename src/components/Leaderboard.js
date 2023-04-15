@@ -51,11 +51,7 @@ const leaderboardData = [
       points: 341,
       iconUrl: "https://randomuser.me/api/portraits/men/45.jpg"
     },
-      {
-        "username": "TomJohnson",
-        "points": 222,
-        "iconUrl": "https://randomuser.me/api/portraits/men/24.jpg"
-      },
+    
    
   // Add more entries here
 ];

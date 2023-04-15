@@ -26,7 +26,7 @@ function Home() {
             <img className=''></img>
         </section>
         </div>
-        <section className="container mx-auto mb-16">
+        <section className="container mx-auto mb-16 h-[100vh]">
           <h3 className="text-3xl font-bold mb-8">Why Donate Blood?</h3>
           <ul className="text-xl">
             <li className="mb-4">Blood transfusions save millions of lives each year</li>
@@ -34,7 +34,7 @@ function Home() {
             <li className="mb-4">Donating blood can have health benefits for the donor</li>
           </ul>
         </section>
-        <section className="text-center">
+        <section className="text-center h-[100vh]">
           <h3 className="text-3xl font-bold mb-8">Success Stories</h3>
           <p className="text-xl mb-8">Read about some of the lives that have been saved thanks to blood donors like you.</p>
           <a href="#stories" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-800 hover:text-white transition duration-300 inline-block">Read More</a>
@@ -43,7 +43,7 @@ function Home() {
           <Leaderboard/>
         </section>
       </main>
-      <footer className="text-center py-4">
+      <footer className="text-center py-4 bg-purple-700">
         <p className="text-xl">&copy; 2023 BloodQuest</p>
       </footer>
     </div>
