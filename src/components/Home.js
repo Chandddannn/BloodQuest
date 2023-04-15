@@ -3,6 +3,8 @@ import Leaderboard from './Leaderboard';
 import Logo from './images/BloodQuest.png'
 import QuestPage from './Quest';
 import Profile from './Profile';
+import SignupPage from './Signup';
+import LoginPage from './LoginPage';
 
 function Home() {
   return (
@@ -21,11 +23,11 @@ function Home() {
       <main className="container mx-auto py-16">
         <div>
         <section className="text-center mg-16 h-[100vh]">
-  <img src={Logo} alt="Donate blood" className="mx-auto max-h-[50vh] mb-8" />
-  <h2 className="text-5xl font-bold mb-8">Join the BloodQuest</h2>
-  <p className="text-xl mb-8">Donate blood and help save lives</p>
-  <a href="#register" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-800 hover:text-white transition duration-300 inline-block">Register Now</a>
-</section>
+            <img src={Logo} alt="Donate blood" className="mx-auto max-h-[50vh] mb-8" />
+            <h2 className="text-5xl font-bold mb-8">Join the BloodQuest</h2>
+            <p className="text-xl mb-8">Donate blood and help save lives</p>
+            <a href="#register" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-800 hover:text-white transition duration-300 inline-block">Register Now</a>
+        </section>
 
 
         
