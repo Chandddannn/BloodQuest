@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 function SignupPage() {
   return (
@@ -114,12 +115,12 @@ function SignupPage() {
         />
       </div>
       <div className="col-span-2">
-        <button
+        <Link to='/leaderboard'
           className="w-full bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 rounded-lg focus:outline-none focus:shadow-outline"
           type="submit"
         >
           Sign Up
-        </button>
+        </Link>
       </div>
     </form>
   </div>
