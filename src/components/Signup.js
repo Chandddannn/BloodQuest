@@ -4,7 +4,7 @@ function SignupPage() {
   return (
     <div className="flex rounded flex-col items-center justify-center h-screen bg-purple-800">
       <div className="bg-white p-8 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold mb-4">Sign Up</h2>
+        <h2 className="text-2xl-gray font-bold mb-4">Sign Up</h2>
         <form className="grid grid-cols-2 gap-4">
           <div className="mb-4">
             <label className="block text-gray-700 font-bold mb-2" htmlFor="email">
