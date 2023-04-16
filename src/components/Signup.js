@@ -2,7 +2,7 @@ import React from "react";
 
 function SignupPage() {
   return (
-    <div className="flex rounded flex-col items-center justify-center h-screen bg-purple-500">
+    <div className="flex rounded flex-col items-center justify-center h-screen bg-purple-800">
       <div className="bg-white p-8 rounded-lg shadow-lg">
         <h2 className="text-2xl font-bold mb-4">Sign Up</h2>
         <form className="grid grid-cols-2 gap-4">

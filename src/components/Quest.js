@@ -28,7 +28,7 @@ const QuestPage = () => {
 
     return (
         <div className="bg-purple-800 text-black min-h-screen flex flex-col justify-center items-center">
-            <h1 className="text-4xl text-white mb-8">Quests</h1>
+            <h2 className="text-white text-[50px] font-bold mb-10">Quests</h2>
             <ul className="w-1/2">
                 {quests.map((quest, index) => (
                     <li className="bg-white p-4 rounded-lg ease-in-out duration-300 hover:drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)] flex justify-between items-center mb-4">

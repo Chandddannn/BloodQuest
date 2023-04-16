@@ -2,7 +2,7 @@ import React from "react";
 
 function LoginPage() {
   return (
-    <div className="rounded flex flex-col items-center justify-center h-screen bg-purple-500">
+    <div className="rounded flex flex-col items-center justify-center h-screen bg-purple-800">
       <div className="bg-white p-8 rounded-lg shadow-lg">
         <h2 className="text-2xl font-bold mb-4">Login</h2>
         <form>

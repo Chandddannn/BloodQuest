@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import React from 'react';
 import Leaderboard from './Leaderboard';
 import Logo from './images/BloodQuest.png'
@@ -13,9 +14,9 @@ function Home() {
         <nav className="flex items-center justify-between bg-purple-600 py-4 px-12 w-[100vw] ">
           <img className='h-8 w-8' src={Logo} alt="BloodQuest"></img>
           <ul className="flex">
-            <li className="ml-4"><a href="#locator">Quest</a></li>
-            <li className="ml-4"><a href="#leaderboard">Leaderboard</a></li>
-            <li className="ml-4"><a href="#donors">Profile</a></li>
+            <li className="ml-4"><Link to='/quest-page'>Quest</Link></li>
+            <li className="ml-4"><Link to='/leaderboard'>Leaderboard</Link></li>
+            <li className="ml-4"><Link to='/profile'>Profile</Link></li>
 
           </ul>
         </nav>
@@ -26,7 +27,8 @@ function Home() {
             <img src={Logo} alt="Donate blood" className="mx-auto max-h-[50vh] mb-8" />
             <h2 className="text-5xl font-bold mb-8">Join the BloodQuest</h2>
             <p className="text-xl mb-8">Donate blood and help save lives</p>
-            <a href="#register" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Register Now</a>
+            <Link to='/signup' href="#register" className="bg-white text-purple-500 py-4 px-10 mx-4 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Register Now</Link>
+            <Link to='/login' href="#register" className="bg-white text-purple-500 py-4 px-10 mx-4 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Login</Link>
         </section>
 
 
@@ -46,13 +48,8 @@ function Home() {
           <a href="#stories" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Read More</a>
         </section>
         <section>
-          <Leaderboard/>
         </section>
       </main>
-      <QuestPage/>
-      <Profile/>
-      <SignupPage/>
-      <LoginPage/>
       <footer className="text-center py-4 bg-purple-700">
         <p className="text-xl"><small>&copy; 2023 BloodQuest</small></p>
       </footer>
