@@ -15,21 +15,21 @@ function Home() {
         <nav className="flex flex-cols items-center justify-between bg-purple-600 py-4 px-12 w-[100vw] ">
           <img className='h-8 w-8' src={Logo} alt="BloodQuest"></img>
           <ul className="flex">
-            <li className="ml-4"><Link to='/quest-page'>Quest</Link></li>
-            <li className="ml-4"><Link to='/leaderboard'>Leaderboard</Link></li>
-            <li className="ml-4"><Link to='/profile'>Profile</Link></li>
+            <li className="ml-4 text-xl"><Link to='/quest-page'>Quest</Link></li>
+            <li className="ml-4 text-xl"><Link to='/leaderboard'>Leaderboard</Link></li>
+            <li className="ml-4 text-xl"><Link to='/profile'>Profile</Link></li>
 
           </ul>
         </nav>
       </header>
-      <main className="container mx-auto py-16">
+      <main className="container mx-auto ">
         <div>
         <section className="text-center mg-16 h-[100vh] flex flex-col md:flex-row justify-center items-center">
           <div className="md:w-1/2">
-            <img src={Logo} alt="Donate blood" className="mx-auto max-h-[50vh] mb-8" />
+            <img src={Logo} alt="Donate blood" className="mx-auto max-h-[60vh] mb-8" />
           </div>
-          <div className="md:w-1/2">
-            <h2 className="text-5xl font-bold mb-8">Join the BloodQuest</h2>
+          <div className="md:w-1/3">
+            <h2 className="text-5xl font-bold mb-8 ">Join the BloodQuest</h2>
             <p className="text-xl mb-8">Donate blood and help save lives</p>
           <div className="flex justify-center">
             <Link to='/signup' href="#register" className="bg-white text-purple-500 py-4 px-10 mx-4 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Register Now</Link>
