@@ -21,8 +21,8 @@
   background-color:  rgb(75, 2, 85);
   border-radius: 40px;
 }
-::-webkit-scrollbar-track:horizontal{
-  background-color:  rgb(5, 0, 5);
+::-webkit-scrollbar-track:vertical{
+  background-color:  rgb(65, 0, 126);
   border-radius: 40px;
 }
 body {

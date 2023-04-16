@@ -32,11 +32,12 @@ function Home() {
             <h2 className="text-5xl font-bold mb-8">Join the BloodQuest</h2>
             <p className="text-xl mb-8">Donate blood and help save lives</p>
           <div className="flex justify-center">
-             <Link to='/signup' href="#register" className="bg-white text-purple-500 py-4 px-10 mx-4 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Register Now</Link>
-             <Link to='/login' href="#register" className="bg-white text-purple-500 py-4 px-10 mx-4 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Login</Link>
+            <Link to='/signup' href="#register" className="bg-white text-purple-500 py-4 px-10 mx-4 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Register Now</Link>
+            <Link to='/login' href="#register" className="bg-white text-purple-500 py-4 px-10 mx-4 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Login</Link>
           </div>
         </div>
      </section>
+
 
 
 
@@ -55,12 +56,14 @@ function Home() {
           <p className="text-xl mb-8">Read about some of the lives that have been saved thanks to blood donors like you.</p>
           <a href="#stories" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Read More</a>
         </section>
+
         <section>
 
           <BloodDonationCard/>
           <Leaderboard/>
 
         </section>
+
       </main>
       <footer className="text-center py-4 bg-purple-700">
         <p className="text-xl"><small>&copy; 2023 BloodQuest</small></p>
