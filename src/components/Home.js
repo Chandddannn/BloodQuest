@@ -48,13 +48,6 @@ function Home() {
           <p className="text-xl mb-8">Read about some of the lives that have been saved thanks to blood donors like you.</p>
           <a href="#stories" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Read More</a>
         </section>
-        <section>
-<<<<<<< Updated upstream
-=======
-          <BloodDonationCard/>
-          <Leaderboard/>
->>>>>>> Stashed changes
-        </section>
       </main>
       <footer className="text-center py-4 bg-purple-700">
         <p className="text-xl"><small>&copy; 2023 BloodQuest</small></p>
