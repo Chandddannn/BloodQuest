@@ -6,6 +6,7 @@ import QuestPage from './Quest';
 import Profile from './Profile';
 import SignupPage from './Signup';
 import LoginPage from './LoginPage';
+import BloodDonationCard from './Brief';
 
 function Home() {
   return (
@@ -48,6 +49,11 @@ function Home() {
           <a href="#stories" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Read More</a>
         </section>
         <section>
+<<<<<<< Updated upstream
+=======
+          <BloodDonationCard/>
+          <Leaderboard/>
+>>>>>>> Stashed changes
         </section>
       </main>
       <footer className="text-center py-4 bg-purple-700">
