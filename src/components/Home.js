@@ -26,7 +26,7 @@ function Home() {
             <img src={Logo} alt="Donate blood" className="mx-auto max-h-[50vh] mb-8" />
             <h2 className="text-5xl font-bold mb-8">Join the BloodQuest</h2>
             <p className="text-xl mb-8">Donate blood and help save lives</p>
-            <a href="#register" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-800 hover:text-white transition duration-300 inline-block">Register Now</a>
+            <a href="#register" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Register Now</a>
         </section>
 
 
@@ -43,7 +43,7 @@ function Home() {
         <section className="text-center h-[100vh]">
           <h3 className="text-3xl font-bold mb-8">Success Stories</h3>
           <p className="text-xl mb-8">Read about some of the lives that have been saved thanks to blood donors like you.</p>
-          <a href="#stories" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-800 hover:text-white transition duration-300 inline-block">Read More</a>
+          <a href="#stories" className="bg-white text-purple-500 py-4 px-10 rounded-full shadow-lg hover:bg-purple-600 hover:text-white transition duration-300 inline-block">Read More</a>
         </section>
         <section>
           <Leaderboard/>
@@ -51,8 +51,10 @@ function Home() {
       </main>
       <QuestPage/>
       <Profile/>
+      <SignupPage/>
+      <LoginPage/>
       <footer className="text-center py-4 bg-purple-700">
-        <p className="text-xl">&copy; 2023 BloodQuest</p>
+        <p className="text-xl"><small>&copy; 2023 BloodQuest</small></p>
       </footer>
     </div>
   );
